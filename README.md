@@ -1,8 +1,11 @@
 ## 问题描述
 
 二维Acoustic Wave方程
+
 ![image](https://github.com/jameschu6489/pdesolverteam_t15_2dwave/blob/main/equation_images/2d_wave.jpg)
+
 其中定义域为
+
 ![image](https://github.com/jameschu6489/pdesolverteam_t15_2dwave/blob/main/equation_images/domain.jpg)
 
 ## PINNs方法求解Acoustic Wave方程
