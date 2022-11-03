@@ -1,17 +1,9 @@
 ## 问题描述
 
 二维Acoustic Wave方程
-$$
-R_{PDE} := \alpha^2 \nabla^2 \phi - \frac{\partial^2 \phi}{\partial t^2}\\
-R_{P.C} := \rho \alpha^2 \nabla^2 \phi(x, t, z=0)\\
-R_{S_1} := \nabla \phi(x, z, t=t_1^0) - U_1^0(x, z)\\
-R_{S_2} := \nabla \phi(x, z, t=t_2^0) - U_2^0(x, z)\\
-R_{obs} := \nabla \phi(x, z, t) - U_{obs}(x, z, t)
-$$
+![image](https://github.com/jameschu6489/pdesolverteam_t15_2dwave/blob/main/equation_images/2d_wave.jpg)
 其中定义域为
-$$
-\{(x, z, t) | (x, z, t) \in [0, 1.2]\times[0, 0.45]\times[0, 0.5]\}.
-$$
+![image](https://github.com/jameschu6489/pdesolverteam_t15_2dwave/blob/main/equation_images/domain.jpg)
 
 ## PINNs方法求解Acoustic Wave方程
 
